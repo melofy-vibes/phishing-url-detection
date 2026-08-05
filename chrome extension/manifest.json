@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "تشخیص‌دهنده لینک‌های مخرب",
+  "version": "1.0",
+  "description": "بررسی امنیت لینک‌ها با استفاده از مدل‌های هوش مصنوعی (Ensemble Model)",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
