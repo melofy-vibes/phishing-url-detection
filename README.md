@@ -206,11 +206,11 @@ All evaluation results, including ROC-AUC curves, Precision-Recall curves, confu
 
 | Model | Developer | Accuracy | F1‑Score | ROC‑AUC | Training Time ⏱️ | Model Complexity 🧩 | 
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 
-| **Classic ML (XGBoost)** | **Arian** | 92.9% | 0.944 | 0.975 | ~10 min | Medium |
-| **CNN + Ensemble (RandomForest)** | **Mehraveh** | 98.17% | 0.987 | 0.997 | ~25 min | High | 
-| **CNN + BiLSTM** | **Arian** | 98.1% | 0.987 | 0.998 | ~15 - 18 min | High | 
-| **LightGBM (Classic Features)** | **Parsa** | 92.6% | 0.946 | 0.972 % | ~30 min | Medium | 
-| **Hierarchical Multi‑View Deep** | **Parsa** | ? | ? | ? | ~4 hours | Very High |
+| **Classic ML (XGBoost)** | **Arian** | 92.9% | 0.944 | 0.975 | ~15 min | Medium |
+| **CNN + Ensemble (RandomForest)** | **Mehraveh** | 98.17% | 0.987 | 0.997 | ~25 min (GPU) | High | 
+| **CNN + BiLSTM** | **Arian** | **98.1%** | **0.987** | **0.998** | **~15 - 18 min (GPU)** | High | 
+| **LightGBM (Classic Features)** | **Parsa** | 92.6% | 0.946 | 0.972 | ~30 min | Medium | 
+| **Hierarchical Multi‑View Deep** | **Parsa** | ? | ? | ? | ~4 hours (GPU) | Very High |
 
 
 **Key Observations:**
