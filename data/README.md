@@ -1,32 +1,19 @@
-\# Dataset
-
-
+# Dataset
 
 The dataset used in this project is not included in this repository because it exceeds GitHub's 100 MB file size limit.
 
-
-
-\## Download
+## Download
 
 
 
 Download the dataset from the following Google Drive folder:
 
+**Google Drive:**  [Dataset](https://drive.google.com/drive/folders/148LAesTjk3S_y-8PYUY9hhHLMroPZUzO)
 
 
-\*\*Google Drive:\*\*  
-
-<PASTE\_YOUR\_GOOGLE\_DRIVE\_LINK\_HERE>
-
-
-
-\## Google Colab Setup
-
-
+## Google Colab Setup
 
 If you are running the notebooks in Google Colab, mount your Google Drive:
-
-
 
 ```python
 
@@ -36,35 +23,19 @@ drive.mount('/content/drive')
 
 ```
 
-
-
 Then update the dataset path if necessary. For example:
-
-
 
 ```python
 
-df = pd.read\_csv(
-
-&#x20;   "/content/drive/MyDrive/phishing-url-detection/cleaned\_phishing\_dataset\_with\_features.csv"
-
-)
+df = pd.read\_csv("/content/drive/MyDrive/phishing-url-detection/cleaned\_phishing\_dataset\_with\_features.csv")
 
 ```
 
-
-
-\## Local Setup
-
-
+## Local Setup
 
 If you are running the notebooks locally, download the dataset and place it inside the `data/` directory.
 
-
-
 Example:
-
-
 
 ```text
 
@@ -82,8 +53,6 @@ project/
 
 ```
 
-
-
 Then update the dataset path accordingly, for example:
 
 
@@ -94,13 +63,7 @@ df = pd.read\_csv("data/cleaned\_phishing\_dataset\_with\_features.csv")
 
 ```
 
+## Notes
 
-
-\## Notes
-
-
-
-\- Ensure the dataset filename matches the one used in the notebooks.
-
-\- If you store the dataset in a different location, update the file path in the notebook before running it.
-
+- Ensure the dataset filename matches the one used in the notebooks.
+- If you store the dataset in a different location, update the file path in the notebook before running it.
