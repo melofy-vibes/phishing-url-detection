@@ -210,7 +210,6 @@ All evaluation results, including ROC-AUC curves, Precision-Recall curves, confu
 | **CNN + Ensemble (RandomForest)** | **Mehraveh** | 98.17% | 0.987 | 0.997 | ~25 min | High | 
 | **CNN + BiLSTM** | **Arian** | 98.1% | 0.987 | 0.998 | ~15 - 18 min | High | 
 | **LightGBM (Classic Features)** | **Parsa** | 92.6% | 0.946 | 0.972 % | ~30 min | Medium | 
-| 
 | **Hierarchical Multi‑View Deep** | **Parsa** | ? | ? | ? | ~4 hours | Very High |
 
 
